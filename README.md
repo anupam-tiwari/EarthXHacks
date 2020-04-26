@@ -1,5 +1,5 @@
 ## Introduction
-Web server using a Raspberry Pi and DHT22 sensor to graph the humidity and temperature in my apartment over time. The data can be accessed over a web browser.
+Web server using a Raspberry Pi and DHT22 sensor to graph the humidity and temperature in oceans over time. The data can be accessed over a web browser.
 
 Skills I learned during this project:
 - Setup the minimal Raspbian operating system to the RPi, called Minibian
@@ -15,6 +15,7 @@ Skills I learned during this project:
 - Use the Google Chart API to create visual representations of the sensor data
 - Use Javascript/JQuery to add interactivity to web pages
 - Use Plotly for graphical analysis of sensor data
+- tensorflow lite 
 
 ## Summary
 
@@ -32,9 +33,6 @@ The historic view has a couple features. The first is a to and from date input, 
 
 The main view are 2 tables combined with Google Charts graphs. The tables both scroll, and the charts display data across the time selected. The times are displayed in your own time zone, as it is determined from your browser.
 
-## YouTube
-
-YouTube: https://www.youtube.com/watch?v=hFqNiZ4p0Ss
 
 ## Circuit Diagram
 
